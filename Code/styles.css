@@ -1,0 +1,116 @@
+ @import url('https://fonts.googleapis.com/css2?family=DM+Sans&family=Inter:wght@100;400;700;900&display=swap');
+
+
+#navbar {
+padding: 0 0 5px;
+background-image: linear-gradient(to right,rgb(44, 212, 207),rgb(44, 212, 207));
+}
+#navbar img{
+    width: 45px;
+    height: 45px;
+     margin-left: 40px;
+}
+
+#navbar-brand {
+text-decoration: none;
+color:#fdfffc;
+font-family: 'DM Sans', sans-serif;
+font-size: 2rem;
+font-weight: bold;
+padding-left: 1rem;
+}
+span{
+    color:white;
+}
+		.center {
+			text-align: center;
+		}
+
+.nav-item {
+padding: 0 10px;
+}
+
+.nav-link {
+font-size: 1.6rem;
+}
+
+.btn {
+    background-color: black;
+}
+
+/* Introduction */
+.intro{
+text-align: center;
+font-size: 50px;
+letter-spacing: 3px;
+font-family: 'DM Sans', sans-serif;
+position: relative;
+padding:4% 8%;
+color:white;
+
+}
+.info{
+    width: 50%;
+    text-align: center;
+    position: relative;
+    left: 25%;
+    color:white;
+    font-size:23px;
+}
+.cont{
+height:200px;
+width:300px;
+padding: 1%;
+margin: 0 auto;
+}
+
+button{
+height: 30%;
+width: 30%;
+}
+#vcustomer,#vhistory{
+    background-color: rgb(44, 212, 207);
+    border: none;
+}
+#vcustomer:hover,#vhistory:hover{
+    background-color: white;
+    color: rgb(44, 212, 207);
+}
+.contain{
+height:200px;
+width:400px;
+background-color:lightgray;
+padding: 1%;
+margin: 0 auto;
+}
+.choose{
+    font-size:1.5rem;
+    color:#40abda;
+    font-style:Ubuntu;
+    font-weight:bold
+}
+/* footer section */
+#footer {
+margin-top: 200px;
+padding: 5% auto;
+text-align: center;
+color: white;
+font-size: 25px;
+}
+#select-btn,#money-btn{
+    background-color: rgb(44, 212, 207);
+    border: none;
+}
+#select-btn:hover,#money-btn:hover{
+    background-color: white;
+    color: rgb(44, 212, 207);
+    border: 1px solid rgb(44, 212, 207);
+}
+.social-icon {
+margin: 10px 5px;
+color: white;
+}
+.social-icon:hover{
+cursor: pointer;
+padding:0 5px ;
+}
